@@ -2,3 +2,9 @@ DREAMER.mat
 tmp_out/
 tmp_out1/
 example/
+dataset.py
+DREAMER*
+dreamer*
+Neuroscience*
+pre_tf.ipynb
+DL_*
