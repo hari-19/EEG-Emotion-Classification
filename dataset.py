@@ -32,11 +32,11 @@ base_path = "./"
 # )
 
 dataset = DREAMERDataset(
-    io_path=base_path + 'dreamer61sec_unnormalized',
+    io_path=base_path + 'dreamer61sec',
     mat_path=dataset_path,
     offline_transform=transforms.Compose([
         transforms.BaselineRemoval(),
-        # transforms.MeanStdNormalize(),
+        transforms.MeanStdNormalize(),
         transforms.To2d()
     ]),
     # online_transform=transforms.ToTensor(),
